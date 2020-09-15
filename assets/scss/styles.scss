@@ -1,0 +1,16 @@
+@import "variables";
+@import "reset";
+
+
+.item {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid rgba(0, 0, 0, 0.03);
+  font-size: 35px;
+  background-color: #ffc600;
+
+  p {
+    margin: 0 0 5px 0;
+  }
+}
